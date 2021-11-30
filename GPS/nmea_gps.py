@@ -1,6 +1,6 @@
 import pynmea2
 
-file = open('E:\\Gustavo\\GENERA\Direção Segura\\GPS\dados\\1_casa_gramado_cemiterio.txt', encoding='utf-8')
+file = open('PATH_TO_TXT_FILE, encoding='utf-8')
 file_final  = open("gps_lat_long.txt", "w+")
 
 for line in file.readlines():
