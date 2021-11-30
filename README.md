@@ -1,7 +1,7 @@
 # safe-drive
 Safe Drive project that implements Drowsiness Detection along with inertial sensor reading and inference. Other codes are also available, like plotting data, statistics calculation and others.
 
-All the functionalities were implemented on a NVIDIA Jetson Nano for real time inference. The list of hardware mis listed bellow:
+All the functionalities were implemented on a NVIDIA Jetson Nano for real time inference. The list of hardware is listed bellow:
 - NVIDIA Jetson Nano
 - Picamera V2
 - MPU6050 (triple axis accelerometer and gyroscope)
