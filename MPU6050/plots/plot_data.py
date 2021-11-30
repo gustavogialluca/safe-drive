@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(('E:\\Gustavo\\GENERA\\Direção Segura\\MPU6050\\dados\\testes_dia_2\\13_desaceleracao_media.txt'))
+df = pd.read_csv(('PATH_TO_TXT_FILE'))
 print(df.head())
 
 fig, (ax1, ax2) = plt.subplots(2)
