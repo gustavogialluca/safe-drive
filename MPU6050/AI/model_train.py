@@ -9,7 +9,7 @@ import seaborn as sns
 import pickle
 
 # Load dataset and store it in pandas dataframe and print first 5 rows
-DATASET_PATH = "E:\\Gustavo\\GENERA\\Direção Segura\\MPU6050\\AI\\mendeley_data\\Features By Window Size\\features_14.csv"
+DATASET_PATH = "PATH_TO_CSV_TRAINING_DATA"
 df = pd.read_csv(DATASET_PATH)
 print(df.head())
 
