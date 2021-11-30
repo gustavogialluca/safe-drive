@@ -5,7 +5,7 @@ import pickle
 from math import pi
 
 # Read data from txt file, transform Gyro data into degrees/second and store it into pandas dataframe
-df = pd.read_csv("E:\\Gustavo\\GENERA\\Direção Segura\\MPU6050\\dados\\testes_dia_2\\4_retorno_esquerda_brusco.txt")
+df = pd.read_csv("PATH_TO_CSV_DATA_FOR_INFERENCE")
 print(df.head())
 df.iloc[:, -3:] = df.iloc[:,-3:].apply(lambda x: 180*x/pi)
 print(df.head())
